@@ -1,21 +1,30 @@
 ul {
-    display: flex;
-    padding: unset;
-    margin: 0%;
-    height: 3em;
     background-color: #cf88dd; 
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 ul > li {
-    margin:  auto;
     text-align: center;
     list-style-type: none;
+    border-style: solid;
+    border-left: 1em;
+    border-color: #510061;
+    display: flexbox;
+    width: max-content;
+    margin: auto;
+    width: 100%;
 }
 
-p {
+.nav {
     color: rgb(240, 240, 240);
     font-family: Helvetica, sans-serif;
     font-weight: bold;
+}
+
+.nav:hover {
+    color: #510061;
 }
 
 

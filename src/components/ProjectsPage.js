@@ -1,3 +1,5 @@
+import './Pages.css';
+
 function ProjectsPage() {
     return (
         <h1>Ongoing Projects</h1>    

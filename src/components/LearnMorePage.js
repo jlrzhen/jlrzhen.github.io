@@ -1,3 +1,5 @@
+import './Pages.css';
+
 function LearnMorePage() {
     return (
         <h1>Learn More</h1>
