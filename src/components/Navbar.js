@@ -7,20 +7,20 @@ import {
 import AboutPage from './AboutPage';
 import LearnMorePage from './LearnMorePage';
 import HomePage from './HomePage';
+import './NavBar.css'
 
 function Navbar() {
     return (
         <Router>
-            <div>
-                <Link to="/home">Home</Link>
-            </div>
-            <div>
-                <Link to="/about">About</Link>
-            </div>
-            <div>
-                <Link to="/learnmore">Learn More</Link>
-            </div>           
-            <Switch>
+            <div className="container">
+                <ul>
+                    <li>My Website</li>
+                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/learnmore">Learn More</Link></li>
+                </ul> 
+            </div>                     
+            < Switch>
                 <Route path="/home">
                     <HomePage/>
                 </Route>

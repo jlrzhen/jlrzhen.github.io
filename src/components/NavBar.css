@@ -1,0 +1,11 @@
+.container > ul {
+    display: flex;
+}
+
+.container > ul > li {
+    padding:unset;
+    margin:  auto;
+    text-align: center;
+    list-style-type: none;
+}
+
