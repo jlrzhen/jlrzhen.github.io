@@ -2,7 +2,9 @@ import './Pages.css';
 
 function ProjectsPage() {
     return (
-        <h1>Ongoing Projects</h1>    
+        <div className="page">
+            <h1>Ongoing Projects</h1> 
+        </div>   
     );
 }
 

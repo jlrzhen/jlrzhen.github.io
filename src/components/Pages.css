@@ -1,4 +1,12 @@
 h1 {
+    color: #fbe7ff;
     text-align: center;
     font-family: Helvetica;
+}
+
+.page {
+    background-color: #8866af;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
