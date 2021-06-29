@@ -1,9 +1,10 @@
 .container > ul {
     display: flex;
+    padding: unset;
 }
 
 .container > ul > li {
-    padding:unset;
+    padding: unset;
     margin:  auto;
     text-align: center;
     list-style-type: none;
