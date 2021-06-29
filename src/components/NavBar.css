@@ -1,12 +1,21 @@
-.container > ul {
+ul {
     display: flex;
     padding: unset;
+    margin: 0%;
+    height: 3em;
+    background-color: #cf88dd; 
 }
 
-.container > ul > li {
-    padding: unset;
+ul > li {
     margin:  auto;
     text-align: center;
     list-style-type: none;
 }
+
+p {
+    color: rgb(240, 240, 240);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 

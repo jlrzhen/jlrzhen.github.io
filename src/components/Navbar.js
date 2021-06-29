@@ -14,14 +14,12 @@ import './NavBar.css'
 function Navbar() {
     return (
         <Router>
-            <div className="container">
-                <ul>
-                    <li><Link to="/home">My Website</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/learnmore">Learn More</Link></li>
-                </ul> 
-            </div>                     
+            <ul>
+                <li><Link to="/home" style={linkStyle}><p>My Website</p></Link></li>
+                <li><Link to="/about" style={linkStyle}><p>About</p></Link></li>
+                <li><Link to="/projects" style={linkStyle}><p>Projects</p></Link></li>
+                <li><Link to="/learnmore" style={linkStyle}><p>Learn More</p></Link></li>
+            </ul>                     
             < Switch>
                 <Route exact path="/">
                     <Redirect to="/home" />
@@ -42,5 +40,9 @@ function Navbar() {
         </Router>
     );
 }
+
+const linkStyle = {
+    textDecoration: 'none' 
+};
 
 export default Navbar;
