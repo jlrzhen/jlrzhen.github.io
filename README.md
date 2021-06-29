@@ -1,4 +1,4 @@
- [View Page](jlrzhen.github.io)
+ [View Page](https://jlrzhen.github.io)
 
 # Getting Started with Create React App
 
