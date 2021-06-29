@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/jlrzhen/jlrzhen.github.io/static/css/main.f091fee1.chunk.css",
-    "main.js": "/jlrzhen/jlrzhen.github.io/static/js/main.f72c4a50.chunk.js",
-    "main.js.map": "/jlrzhen/jlrzhen.github.io/static/js/main.f72c4a50.chunk.js.map",
+    "main.js": "/jlrzhen/jlrzhen.github.io/static/js/main.92002751.chunk.js",
+    "main.js.map": "/jlrzhen/jlrzhen.github.io/static/js/main.92002751.chunk.js.map",
     "runtime-main.js": "/jlrzhen/jlrzhen.github.io/static/js/runtime-main.8b4fa6a6.js",
     "runtime-main.js.map": "/jlrzhen/jlrzhen.github.io/static/js/runtime-main.8b4fa6a6.js.map",
-    "static/js/2.93025a48.chunk.js": "/jlrzhen/jlrzhen.github.io/static/js/2.93025a48.chunk.js",
-    "static/js/2.93025a48.chunk.js.map": "/jlrzhen/jlrzhen.github.io/static/js/2.93025a48.chunk.js.map",
+    "static/js/2.d580af19.chunk.js": "/jlrzhen/jlrzhen.github.io/static/js/2.d580af19.chunk.js",
+    "static/js/2.d580af19.chunk.js.map": "/jlrzhen/jlrzhen.github.io/static/js/2.d580af19.chunk.js.map",
     "static/js/3.6606cb15.chunk.js": "/jlrzhen/jlrzhen.github.io/static/js/3.6606cb15.chunk.js",
     "static/js/3.6606cb15.chunk.js.map": "/jlrzhen/jlrzhen.github.io/static/js/3.6606cb15.chunk.js.map",
     "index.html": "/jlrzhen/jlrzhen.github.io/index.html",
     "static/css/main.f091fee1.chunk.css.map": "/jlrzhen/jlrzhen.github.io/static/css/main.f091fee1.chunk.css.map",
-    "static/js/2.93025a48.chunk.js.LICENSE.txt": "/jlrzhen/jlrzhen.github.io/static/js/2.93025a48.chunk.js.LICENSE.txt",
+    "static/js/2.d580af19.chunk.js.LICENSE.txt": "/jlrzhen/jlrzhen.github.io/static/js/2.d580af19.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/jlrzhen/jlrzhen.github.io/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.8b4fa6a6.js",
-    "static/js/2.93025a48.chunk.js",
+    "static/js/2.d580af19.chunk.js",
     "static/css/main.f091fee1.chunk.css",
-    "static/js/main.f72c4a50.chunk.js"
+    "static/js/main.92002751.chunk.js"
   ]
 }
