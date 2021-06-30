@@ -14,13 +14,13 @@ import './NavBar.css'
 function Navbar() {
     return (
         <Router>
-
-                <ul>
-                    <li><Link to="/home" style={linkStyle}><p className="nav">My Website</p></Link></li>
-                    <li><Link to="/about" style={linkStyle}><p className="nav">About</p></Link></li>
-                    <li><Link to="/projects" style={linkStyle}><p className="nav">Projects</p></Link></li>
-                    <li><Link to="/learnmore" style={linkStyle}><p className="nav">Learn More</p></Link></li>
-                </ul>   
+            
+            <ul className="navbar">
+                <li><Link to="/home" style={linkStyle}><p className="nav">My Website</p></Link></li>
+                <li><Link to="/about" style={linkStyle}><p className="nav">About</p></Link></li>
+                <li><Link to="/projects" style={linkStyle}><p className="nav">Projects</p></Link></li>
+                <li><Link to="/learnmore" style={linkStyle}><p className="nav">Learn More</p></Link></li>
+            </ul>   
                     
             < Switch>
                 <Route exact path="/">
