@@ -1,11 +1,11 @@
-ul {
+ul.navbar {
     background-color: #cf88dd; 
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-ul > li {
+ul.navbar > li {
     text-align: center;
     list-style-type: none;
     border-style: solid;

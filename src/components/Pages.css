@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+p {
+    color: #fbe7ff; 
+}
+
 .page > main
 {
     color: #fbe7ff;
@@ -23,8 +27,16 @@
 }
 
 .page > main > p {
-    margin: 0;
+    margin: 0 0 1 0;
     padding: 0;
     text-indent: 50px;
+}
+
+ul.aboutNav {
+    max-width:fit-content;
+}
+
+p.aboutNav:hover {
+    color: #510061;
 }
 
