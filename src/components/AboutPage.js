@@ -3,7 +3,11 @@ import './Pages.css';
 function AboutPage() {
     return (
         <div className="page">
-            <h1>About Me</h1>
+            <main>
+                <h1>About</h1>
+                <p>
+                </p>
+            </main>
         </div>
     );
 }

@@ -3,7 +3,9 @@ import './Pages.css';
 function LearnMorePage() {
     return (
         <div className="page">
-            <h1>Learn More</h1>
+            <main>
+                <h1>Learn More</h1>
+            </main>
         </div>
     );
 }
