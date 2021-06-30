@@ -6,6 +6,12 @@
     align-items: center;
 }
 
+.caption {
+    font-size: small;
+    color: #cabccc;
+    text-indent:0;
+}
+
 p {
     color: #fbe7ff; 
 }

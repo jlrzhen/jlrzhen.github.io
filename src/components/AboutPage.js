@@ -6,6 +6,7 @@ function AboutPage() {
         <div className="page">
             <main>
                 <h1>About</h1>
+                <span className="caption">Website Created on June 28, 2021 by Jeffrey Zhen</span>
                 <p>
                     Welcome to Jeffrey's personal website!
                 </p>
@@ -30,6 +31,7 @@ function AboutPage() {
 }
 
 const linkStyle = {
-    textDecoration: 'underline'  
+    textDecoration: 'underline',
+    color: "white"
 };
 export default AboutPage;
