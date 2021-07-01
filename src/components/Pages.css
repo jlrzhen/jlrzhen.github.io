@@ -2,7 +2,7 @@
     background-color: #8866af;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
 }
 
