@@ -23,8 +23,6 @@ function AboutPage() {
                     <li><Link to="/projects" style={linkStyle}><p className="aboutNav">Projects</p></Link></li>
                     <li><Link to="/learnmore" style={linkStyle}><p className="aboutNav">Learn More</p></Link></li>
                 </ul> 
-                {/* TODO: add h2s/h3s with page name (and link), 
-                include paragraph of explanation underneath */}
                 <Link to="/home" ><h2>My Website</h2></Link>
                 <p>
                     The "My Website" page is the homepage of this site.
