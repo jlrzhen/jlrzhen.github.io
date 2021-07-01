@@ -37,7 +37,7 @@ function AboutPage() {
                 </p>
                 <Link to="/about" ><h2>About</h2></Link>
                 <p>
-                    This is that page that you are currently viewing.
+                    This is the page that you are currently viewing.
                     Here you will find an overview of all the pages 
                     on this website, as well as an explanation of the
                     purpose and features of each page.
