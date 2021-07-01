@@ -36,8 +36,23 @@ function AboutPage() {
                     using React component states and lifecycle methods. 
                 </p>
                 <Link to="/about" ><h2>About</h2></Link>
+                <p>
+                    This is that page that you are currently viewing.
+                    Here you will find an overview of all the pages 
+                    on this website, as well as an explanation of the
+                    purpose and features of each page.
+                </p>
                 <Link to="/projects" ><h2>Projects</h2></Link>
+                <p>
+                    The Projects page shows a collection of my 
+                    completed and ongoing projects. 
+                </p>
                 <Link to="/learnmore" ><h2>Learn More</h2></Link>
+                <p>
+                    This page contains all miscellaneous information
+                    related to my website, including a link to its GitHub 
+                    repository.
+                </p>
             </main>
         </div>
     );
