@@ -53,6 +53,7 @@ function AboutPage() {
                     related to my website, including a link to its GitHub 
                     repository.
                 </p>
+                {/*TODO: add github repo*/}
             </main>
         </div>
     );
