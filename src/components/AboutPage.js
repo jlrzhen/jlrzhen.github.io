@@ -13,7 +13,7 @@ function AboutPage() {
                 <p>
                     The purpose of this site is to show a 
                     collection of my personal projects, while 
-                    allowing me to demonstrate what I've learned 
+                    allowing me to demonstrate concepts I've learned 
                     from front-end web development using React. 
                 </p>
                 <h1>Overview of Pages</h1>
@@ -25,6 +25,19 @@ function AboutPage() {
                 </ul> 
                 {/* TODO: add h2s/h3s with page name (and link), 
                 include paragraph of explanation underneath */}
+                <Link to="/home" ><h2>My Website</h2></Link>
+                <p>
+                    The "My Website" page is the homepage of this site.
+                    This is the default page that users are redirected
+                    to upon visiting <a href="jlrzhen.github.io">jlrzhen.github.io</a>.
+                </p>
+                <p>
+                    So far, I have implemented a clock that shows the current time 
+                    using React component states and lifecycle methods. 
+                </p>
+                <Link to="/about" ><h2>About</h2></Link>
+                <Link to="/projects" ><h2>Projects</h2></Link>
+                <Link to="/learnmore" ><h2>Learn More</h2></Link>
             </main>
         </div>
     );

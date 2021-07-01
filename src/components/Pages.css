@@ -16,6 +16,16 @@ p {
     color: #fbe7ff; 
 }
 
+a {
+    color: #fbe7ff; 
+    text-decoration: underline;  
+}
+
+a:hover {
+    color: #510061; 
+    text-decoration: underline;  
+}
+
 .page > main
 {
     color: #fbe7ff;
