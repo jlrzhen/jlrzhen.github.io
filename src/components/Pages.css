@@ -16,13 +16,13 @@ p {
     color: #fbe7ff; 
 }
 
-a {
-    color: #fbe7ff; 
-    text-decoration: underline;  
+h2 {
+    display: inline-block;
+    text-decoration: underline;
 }
 
-a:hover {
-    color: #510061; 
+a {
+    color: #fbe7ff; 
     text-decoration: underline;  
 }
 
@@ -52,7 +52,9 @@ ul.aboutNav {
     max-width:fit-content;
 }
 
-p.aboutNav:hover {
+p.aboutNav:hover,
+h2.aboutNav:hover,
+a:hover {
     color: #510061;
 }
 
