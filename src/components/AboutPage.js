@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function AboutPage() {
     return (
         <div className="page">
+            <div className="pageContent">
             <main>
                 <h1>About</h1>
                 <span className="caption">Website Created on June 28, 2021 by Jeffrey Zhen</span>
@@ -52,6 +53,7 @@ function AboutPage() {
                     repository.
                 </p>
             </main>
+            </div>
         </div>
     );
 }

@@ -1,3 +1,10 @@
+.page > .pageContent {
+    margin-top: 1%;
+    background-color: #9164c5;
+    border-style: solid;
+    border-color: #510061;
+}
+
 .page {
     background-color: #8866af;
     display: flex;
@@ -12,7 +19,7 @@
     text-indent:0;
 }
 
-p {
+p, h1 {
     color: #fbe7ff; 
 }
 
@@ -26,7 +33,7 @@ a {
     text-decoration: underline;  
 }
 
-.page > main
+.page > div > main
 {
     color: #fbe7ff;
     font-family: Helvetica;
@@ -36,13 +43,13 @@ a {
 
 }
 
-.page > main > h1 {
+.page > div > main > h1 {
     margin-top: 5%;
     margin-bottom: 2%;
     padding: 0;
 }
 
-.page > main > p {
+.page > div > main > p {
     margin: 0 0 1 0;
     padding: 0;
     text-indent: 50px;
