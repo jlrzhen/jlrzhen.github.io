@@ -10,6 +10,7 @@ function ProjectsPage() {
                     completed and ongoing projects.</p>
                 <h2><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h2><br/>
             </main>
+            {/* TODO: reformat to projects > ongoing > completed */}
             </div>    
         </div>   
     );
