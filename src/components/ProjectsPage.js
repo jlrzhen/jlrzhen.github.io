@@ -8,9 +8,13 @@ function ProjectsPage() {
                 <h1>Ongoing Projects</h1> 
                 <p>This page shows a collection of my 
                     completed and ongoing projects.</p>
+                <h2><a href="https://github.com/jlrzhen/jlrzhen.github.io">Personal Website</a></h2><br/>
                 <h2><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h2><br/>
             </main>
-            {/* TODO: reformat to projects > ongoing > completed */}
+            {/* TODO: 
+                - reformat to projects > ongoing > completed
+                - add tools used for each project    
+            */}
             </div>    
         </div>   
     );
