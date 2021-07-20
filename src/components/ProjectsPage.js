@@ -5,7 +5,13 @@ function ProjectsPage() {
         <div className="page">
             <div className="pageContent">
             <main>
-                {/* TODO: add link to deployed projects */}
+                {/* 
+                TODO: 
+                - add link to deployed projects 
+                - add favicon
+                - clean up project files
+                - rewrite readme
+                */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
                     completed and ongoing projects, as well as
@@ -25,7 +31,7 @@ function ProjectsPage() {
                 <p>name-generator is a web app I made that creates 
                     usernames for users based on a specific theme. 
                     The app is dependent on the 
-                    <span> <a href="https://www.datamuse.com/api/">Datamuse api</a> </span>
+                    <span> <a href="https://www.datamuse.com/api/">Datamuse API</a> </span>
                     and generates usernames by running queries with
                     specific parameters.
                 </p>
