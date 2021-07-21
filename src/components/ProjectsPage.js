@@ -8,7 +8,6 @@ function ProjectsPage() {
                 {/* 
                 TODO: 
                 - add link to deployed projects 
-                - add favicon
                 - clean up project files
                 - rewrite readme
                 */}
