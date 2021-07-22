@@ -9,7 +9,6 @@ function ProjectsPage() {
                 TODO: 
                 - add link to deployed projects 
                 - clean up project files
-                - rewrite readme
                 - update metadata
                 */}
                 <h1>Projects</h1> 
