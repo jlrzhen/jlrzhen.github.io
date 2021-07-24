@@ -7,7 +7,7 @@ function ProjectsPage() {
             <main>
                 {/* 
                 TODO: 
-                - add link to deployed projects 
+                - add projects page dividers to css
                 - clean up project files
                 - update metadata
                 */}
@@ -17,14 +17,19 @@ function ProjectsPage() {
                     the programming languages, frameworks and
                     tools that I've used to create them.</p>
                 <h2 style={{textDecoration: 'none'}}>Ongoing</h2> 
-                <br/>
+                
+                <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
                 <h3><a href="https://github.com/jlrzhen/jlrzhen.github.io">Personal Website</a></h3>
-                <span> - JavaScript, React</span><br/>
+                <span> - JavaScript, React </span><br/>
                 <p>The purpose of this site is to show a collection 
                     of my personal projects, while allowing me to 
                     demonstrate concepts I've learned from front-end 
                     web development using React.
                 </p>
+                <a href="https://jlrzhen.github.io/">View deployed site</a>
+                <br/>
+                
+                <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
                 <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
                 <span> - JavaScript, React</span><br/>
                 <p>name-generator is a web app I made that creates 
@@ -34,6 +39,10 @@ function ProjectsPage() {
                     and generates usernames by running queries with
                     specific parameters.
                 </p>
+                <a href="https://jlrzhen.github.io/name-generator">View deployed site</a>
+                <br/>
+                
+                <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
                 <h2 style={{textDecoration: 'none'}}>Completed</h2> 
                 <br/>
             </main>
