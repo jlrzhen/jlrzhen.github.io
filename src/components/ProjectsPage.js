@@ -9,7 +9,8 @@ function ProjectsPage() {
                 TODO: 
                 - add projects page dividers to css
                 - clean up project files
-                - add css animations 
+                - add css animations
+                - add image or icons for projects 
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
