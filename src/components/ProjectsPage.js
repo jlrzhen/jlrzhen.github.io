@@ -1,4 +1,5 @@
 import './Pages.css';
+import websiteLogo from '../images/websiteLogo192.png'
 
 function ProjectsPage() {
     return (
@@ -20,6 +21,10 @@ function ProjectsPage() {
                 <h2 style={{textDecoration: 'none'}}>Ongoing</h2> 
                 
                 <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
+                <a href="https://jlrzhen.github.io">
+                    <img src={websiteLogo} height="20em" width="20em" alt="Website Logo"/>
+                </a>
+                <span> </span>
                 <h3><a href="https://github.com/jlrzhen/jlrzhen.github.io">Personal Website</a></h3>
                 <span> - JavaScript, React </span><br/>
                 <p>The purpose of this site is to show a collection 
