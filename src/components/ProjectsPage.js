@@ -36,7 +36,7 @@ function ProjectsPage() {
                 <br/>
                 
                 <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
-                <a href="https://jlrzhen.github.io">
+                <a href="https://jlrzhen.github.io/name-generator">
                     <img src={nameGenLogo} height="20em" width="20em" alt="name-generator Logo"/>
                 </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
