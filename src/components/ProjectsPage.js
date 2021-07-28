@@ -1,5 +1,6 @@
 import './Pages.css';
 import websiteLogo from '../images/websiteLogo192.png'
+import nameGenLogo from '../images/nameGenLogo192.png'
 
 function ProjectsPage() {
     return (
@@ -23,8 +24,7 @@ function ProjectsPage() {
                 <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
                 <a href="https://jlrzhen.github.io">
                     <img src={websiteLogo} height="20em" width="20em" alt="Website Logo"/>
-                </a>
-                <span> </span>
+                </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/jlrzhen.github.io">Personal Website</a></h3>
                 <span> - JavaScript, React </span><br/>
                 <p>The purpose of this site is to show a collection 
@@ -36,6 +36,9 @@ function ProjectsPage() {
                 <br/>
                 
                 <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
+                <a href="https://jlrzhen.github.io">
+                    <img src={nameGenLogo} height="20em" width="20em" alt="name-generator Logo"/>
+                </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
                 <span> - JavaScript, React</span><br/>
                 <p>name-generator is a web app I made that creates 
