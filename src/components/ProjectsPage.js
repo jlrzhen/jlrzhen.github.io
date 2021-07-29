@@ -9,7 +9,6 @@ function ProjectsPage() {
             <main>
                 {/* 
                 TODO: 
-                - add projects page dividers to css
                 - clean up project files
                 - add css animations
                 - add image or icons for projects 
@@ -21,7 +20,7 @@ function ProjectsPage() {
                     tools that I've used to create them.</p>
                 <h2 style={{textDecoration: 'none'}}>Ongoing</h2> 
                 
-                <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
+                <br/><div className="lineDiv"/>
                 <a href="https://jlrzhen.github.io">
                     <img src={websiteLogo} height="20em" width="20em" alt="Website Logo"/>
                 </a><span> </span>
@@ -35,7 +34,7 @@ function ProjectsPage() {
                 <a href="https://jlrzhen.github.io/">View deployed site</a>
                 <br/>
                 
-                <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
+                <br/><div className="lineDiv"/>
                 <a href="https://jlrzhen.github.io/name-generator">
                     <img src={nameGenLogo} height="20em" width="20em" alt="name-generator Logo"/>
                 </a><span> </span>
@@ -51,7 +50,7 @@ function ProjectsPage() {
                 <a href="https://jlrzhen.github.io/name-generator">View deployed site</a>
                 <br/>
                 
-                <br/><div style={{height: 1, backgroundColor: "Indigo", margin: '20px 0px'}}/>
+                <br/><div className="lineDiv"/>
                 <h2 style={{textDecoration: 'none'}}>Completed</h2> 
                 <br/>
             </main>

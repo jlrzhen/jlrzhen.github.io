@@ -14,6 +14,12 @@
     align-items: center;
 }
 
+.lineDiv {
+    height: 0.01em; 
+    background-color: Indigo; 
+    margin: 20px 0px
+}
+
 .caption {
     font-size: small;
     color: #cabccc;
