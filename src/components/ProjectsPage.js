@@ -11,6 +11,7 @@ function ProjectsPage() {
                 TODO: 
                 - clean up project files
                 - add css animations
+                  - add light and dark theme
                 - add image or icons for projects 
                 */}
                 <h1>Projects</h1> 
