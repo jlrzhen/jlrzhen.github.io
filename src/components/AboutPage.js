@@ -49,8 +49,9 @@ function AboutPage() {
                 <Link to="/learnmore" ><h2 className="aboutNav">Learn More</h2></Link>
                 <p>
                     This page contains all miscellaneous information
-                    related to this website and myself, including a link to a GitHub 
-                    repository and my GitHub account.
+                    related to this website and myself, including a link to a 
+                    <span> <a href="https://github.com/jlrzhen/jlrzhen.github.io">GitHub repository</a> </span>
+                    and my <a href="https://github.com/jlrzhen">GitHub account</a>.
                 </p>
             </main>
             </div>

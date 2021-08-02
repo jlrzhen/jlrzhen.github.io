@@ -10,7 +10,6 @@ function ProjectsPage() {
                 {/* 
                 TODO: 
                 - clean up project files
-                - add links to github on about page
                 - add css animations
                   - add light and dark theme
                 - add image or icons for projects 
