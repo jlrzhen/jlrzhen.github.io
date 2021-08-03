@@ -12,7 +12,8 @@ function ProjectsPage() {
                 - clean up project files
                 - add css animations
                   - add light and dark theme
-                - add image or icons for projects 
+                - add image or icons for projects
+                - add separate pages for projects 
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
