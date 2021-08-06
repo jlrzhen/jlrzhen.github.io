@@ -53,7 +53,12 @@ function ProjectsPage() {
 
                 <br/><div className="lineDiv"/>
                 <h3>Webpage Controlled Robot</h3>
-
+                <p>
+                    A two-wheeled robot chassis controlled by a 
+                    Raspberry Pi Zero using Flask and a user interface
+                    created with React.
+                </p>
+                
                 <br/><div className="lineDiv"/>
                 <h2 style={{textDecoration: 'none'}}>Completed</h2> 
                 <br/>
