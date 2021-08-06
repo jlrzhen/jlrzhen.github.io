@@ -51,7 +51,7 @@ function AboutPage() {
                     This page contains all miscellaneous information
                     related to this website and myself, including a link to a 
                     <span> <a href="https://github.com/jlrzhen/jlrzhen.github.io">GitHub repository</a> </span>
-                    and my <a href="https://github.com/jlrzhen">GitHub account</a>.
+                    and my <a href="https://github.com/jlrzhen">GitHub Profile</a>.
                 </p>
             </main>
             </div>
