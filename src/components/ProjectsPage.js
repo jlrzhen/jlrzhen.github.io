@@ -1,6 +1,7 @@
 import './Pages.css';
 import websiteLogo from '../images/websiteLogo192.png'
 import nameGenLogo from '../images/nameGenLogo192.png'
+import flaskLogo from '../images/flaskIcon.svg'
 
 function ProjectsPage() {  
     return (
@@ -54,6 +55,7 @@ function ProjectsPage() {
 
                 <br/><div className="lineDiv"/>
                 <h3>Webpage Controlled Robot</h3>
+                <span> - {icon("Python")}, {icon("Flask")}, {icon("JS")}, {icon("React")}</span><br/>
                 <p>
                     A two-wheeled robot chassis controlled by a 
                     Raspberry Pi Zero using Flask and a user interface
@@ -75,6 +77,15 @@ function icon (name) {
             return (<span><i class="fab fa-js"></i> JavaScript</span>);
         case "React":
             return (<span><i class="fab fa-react"></i> React</span>);
+        case "Python":
+            return (<span><i class="fab fa-python"></i> Python</span>);
+        case "Flask":
+            return(<span>
+                <img src={flaskLogo} alt="Flask Icon"
+                    style={{
+                        height: "1em",
+                    }}
+                /> Flask</span>)
         default: return null;
     }
 }
