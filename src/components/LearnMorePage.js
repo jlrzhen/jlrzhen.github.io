@@ -1,5 +1,5 @@
 import './Pages.css';
-import GitHubMark from '../images/GitHub-Mark-120px-plus.png';
+import GitHubMark from '../images/GitHub-Mark-120px-plus-white.png';
 
 function LearnMorePage() {
     return (
