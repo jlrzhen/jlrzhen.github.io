@@ -11,8 +11,6 @@ function ProjectsPage() {
                 {/* 
                 TODO: 
                 - clean up project files
-                - create function to input list of tools 
-                    and output icons and text
                 - add css animations
                 - add separate pages for projects 
                 */}
@@ -28,7 +26,7 @@ function ProjectsPage() {
                     <img src={websiteLogo} height="20em" width="20em" alt="Website Logo"/>
                 </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/jlrzhen.github.io">Personal Website</a></h3>
-                <span> - {icon("JS")}, {icon("React")} </span><br/>
+                <span> - {icon(["JS", "React"])} </span><br/>
                 <p>The purpose of this site is to show a collection 
                     of my personal projects, while allowing me to 
                     demonstrate concepts I've learned from front-end 
@@ -42,7 +40,7 @@ function ProjectsPage() {
                     <img src={nameGenLogo} height="20em" width="20em" alt="name-generator Logo"/>
                 </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
-                <span> - {icon("JS")}, {icon("React")}</span><br/>
+                <span> - {icon(["JS", "React"])}</span><br/>
                 <p>name-generator is a web app I made that creates 
                     usernames for users based on a specific theme. 
                     The app is dependent on the 
@@ -55,7 +53,7 @@ function ProjectsPage() {
 
                 <br/><div className="lineDiv"/>
                 <h3>Webpage Controlled Robot</h3>
-                <span> - {icon("Python")}, {icon("Flask")}, {icon("JS")}, {icon("React")}</span><br/>
+                <span> - {icon(["Python", "Flask", "JS", "React"])}</span><br/>
                 <p>
                     A two-wheeled robot chassis controlled by a 
                     Raspberry Pi Zero using Flask and a user interface
@@ -71,23 +69,47 @@ function ProjectsPage() {
     );
 }
 
-function icon (name) {
-    switch(name) {
-        case "JS":
-            return (<span><i class="fab fa-js"></i> JavaScript</span>);
-        case "React":
-            return (<span><i class="fab fa-react"></i> React</span>);
-        case "Python":
-            return (<span><i class="fab fa-python"></i> Python</span>);
-        case "Flask":
-            return(<span>
-                <img src={flaskLogo} alt="Flask Icon"
-                    style={{
-                        height: "1em",
-                    }}
-                /> Flask</span>)
-        default: return null;
+/* Takes an array of tools used in projects 
+    and returns JSX with a list of icons */
+function icon (nameList) {
+    let icons = [];
+    for (let i=0; i<nameList.length; i++) {
+        switch(nameList[i]) {
+            case "JS":
+                icons.push(<span><i class="fab fa-js"></i> JavaScript</span>);
+                addSeparator(i);
+                break;
+            case "React":
+                icons.push(<span><i class="fab fa-react"></i> React</span>);
+                if(i<nameList.length-1) {
+                    icons.push(<span>, </span>)
+                }
+                break;
+            case "Python":
+                icons.push(<span><i class="fab fa-python"></i> Python</span>);
+                addSeparator(i);
+                break;
+            case "Flask":
+                icons.push(<span>
+                    <img src={flaskLogo} alt="Flask Icon"
+                        style={{
+                            height: "1em",
+                        }}
+                    /> Flask</span>);
+                addSeparator(i);
+                break;
+            default: icons += null;
+        }
+        
     }
+    
+    function addSeparator(i) {
+        if(i<nameList.length-1) {
+            icons.push(<span>, </span>)
+        }
+    }
+    
+    return icons    
 }
 
 export default ProjectsPage;
