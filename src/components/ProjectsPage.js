@@ -52,7 +52,7 @@ function ProjectsPage() {
                 <br/>
 
                 <br/><div className="lineDiv"/>
-                <h3>Webpage Controlled Robot</h3>
+                <h3><a href="https://github.com/jlrzhen/webRobot-UI/">Webpage Controlled Robot</a></h3>
                 <span> - {icon(["Python", "Flask", "JS", "React"])}</span><br/>
                 <p>
                     A two-wheeled robot chassis controlled by a 
