@@ -2,6 +2,7 @@ import './Pages.css';
 import websiteLogo from '../images/websiteLogo192.png'
 import nameGenLogo from '../images/nameGenLogo192.png'
 import flaskLogo from '../images/flaskIcon.svg'
+import robotIcon from '../images/robotIcon192.png'
 
 function ProjectsPage() {  
     return (
@@ -12,7 +13,8 @@ function ProjectsPage() {
                 TODO: 
                 - clean up project files
                 - add css animations
-                - add separate pages for projects 
+                - add separate pages for projects
+                - rename logos as icons 
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
@@ -52,6 +54,9 @@ function ProjectsPage() {
                 <br/>
 
                 <br/><div className="lineDiv"/>
+                <a href="https://github.com/jlrzhen/webRobot-UI/">
+                <img src={robotIcon} height="20em" width="20em" alt="webRobot-UI Icon"/>
+                </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/webRobot-UI/">Webpage Controlled Robot</a></h3>
                 <span> - {icon(["Python", "Flask", "JS", "React"])}</span><br/>
                 <p>
