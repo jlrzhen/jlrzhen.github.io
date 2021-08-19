@@ -15,7 +15,6 @@ function ProjectsPage() {
                 - add css animations
                 - add separate pages for projects
                 - rename logos as icons 
-                - add sources for icons
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 

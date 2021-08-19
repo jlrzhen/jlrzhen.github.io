@@ -17,6 +17,7 @@ function AboutPage() {
                     allowing me to demonstrate concepts I've learned 
                     from front-end web development using React. 
                 </p>
+                <br/><div className="lineDiv"/>
                 <h1>Overview of Pages</h1>
                 <ul className="aboutNav">
                     <li><Link to="/home" style={linkStyle}><p className="aboutNav">My Website</p></Link></li>
@@ -53,6 +54,20 @@ function AboutPage() {
                     <span> <a href="https://github.com/jlrzhen/jlrzhen.github.io">GitHub repository</a> </span>
                     and my <a href="https://github.com/jlrzhen">GitHub Profile</a>.
                 </p>
+                <br/><div className="lineDiv"/>
+                <h3>Resources Used for this Website</h3>
+                <ul>
+                    <li>
+                        <a href="https://twemoji.twitter.com/">Icons: Twemoji</a>     
+                    </li><br/>
+                    <li>
+                        <a href="https://fontawesome.com/">Icons: Font Awesome</a>
+                    </li>
+                    <br/>
+                    <li>
+                        <a href="https://favicon.io/">Icons: Favicon.io</a>
+                    </li>
+                </ul>
             </main>
             </div>
         </div>
