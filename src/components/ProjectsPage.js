@@ -1,7 +1,7 @@
 import './Pages.css';
-import websiteLogo from '../images/websiteLogo192.png'
-import nameGenLogo from '../images/nameGenLogo192.png'
-import flaskLogo from '../images/flaskIcon.svg'
+import websiteIcon from '../images/websiteIcon192.png'
+import nameGenIcon from '../images/nameGenIcon192.png'
+import flaskIcon from '../images/flaskIcon.svg'
 import robotIcon from '../images/robotIcon192.png'
 
 function ProjectsPage() {  
@@ -14,7 +14,6 @@ function ProjectsPage() {
                 - clean up project files
                 - add css animations
                 - add separate pages for projects
-                - rename logos as icons 
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
@@ -25,7 +24,7 @@ function ProjectsPage() {
                 
                 <br/><div className="lineDiv"/>
                 <a href="https://jlrzhen.github.io">
-                    <img src={websiteLogo} height="20em" width="20em" alt="Website Logo"/>
+                    <img src={websiteIcon} height="20em" width="20em" alt="Website Icon"/>
                 </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/jlrzhen.github.io">Personal Website</a></h3>
                 <span> - {icon(["JS", "React"])} </span><br/>
@@ -39,7 +38,7 @@ function ProjectsPage() {
                 
                 <br/><div className="lineDiv"/>
                 <a href="https://jlrzhen.github.io/name-generator">
-                    <img src={nameGenLogo} height="20em" width="20em" alt="name-generator Logo"/>
+                    <img src={nameGenIcon} height="20em" width="20em" alt="name-generator Icon"/>
                 </a><span> </span>
                 <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
                 <span> - {icon(["JS", "React"])}</span><br/>
@@ -96,7 +95,7 @@ function icon (nameList) {
                 break;
             case "Flask":
                 icons.push(<span>
-                    <img src={flaskLogo} alt="Flask Icon"
+                    <img src={flaskIcon} alt="Flask Icon"
                         style={{
                             height: "1em",
                         }}
