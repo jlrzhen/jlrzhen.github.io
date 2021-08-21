@@ -19,9 +19,11 @@ function ProjectsPage() {
                 <p>This page shows a collection of my 
                     completed and ongoing projects, as well as
                     the programming languages, frameworks and
-                    tools that I've used to create them.</p>
+                    tools that I've used to create them.
+                </p>
+
                 <h2 style={{textDecoration: 'none'}}>Ongoing</h2> 
-                
+
                 <br/><div className="lineDiv"/>
                 <a href="https://jlrzhen.github.io">
                     <img src={websiteIcon} height="20em" width="20em" alt="Website Icon"/>
@@ -34,23 +36,7 @@ function ProjectsPage() {
                     web development using React.
                 </p>
                 <a href="https://jlrzhen.github.io/">View deployed site</a>
-                <br/>
-                
-                <br/><div className="lineDiv"/>
-                <a href="https://jlrzhen.github.io/name-generator">
-                    <img src={nameGenIcon} height="20em" width="20em" alt="name-generator Icon"/>
-                </a><span> </span>
-                <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
-                <span> - {icon(["JS", "React"])}</span><br/>
-                <p>name-generator is a web app I made that creates 
-                    usernames for users based on a specific theme. 
-                    The app is dependent on the 
-                    <span> <a href="https://www.datamuse.com/api/">Datamuse API</a> </span>
-                    and generates usernames by running queries with
-                    specific parameters.
-                </p>
-                <a href="https://jlrzhen.github.io/name-generator">View deployed site</a>
-                <br/>
+                <br/>    
 
                 <br/><div className="lineDiv"/>
                 <a href="https://github.com/jlrzhen/webRobot-UI/">
@@ -64,9 +50,23 @@ function ProjectsPage() {
                     created with React.
                 </p>
                 
-                <br/><div className="lineDiv"/>
                 <h2 style={{textDecoration: 'none'}}>Completed</h2> 
-                <br/>
+
+                <div className="lineDiv"/>
+                <a href="https://jlrzhen.github.io/name-generator">
+                    <img src={nameGenIcon} height="20em" width="20em" alt="name-generator Icon"/>
+                </a><span> </span>
+                <h3><a href="https://github.com/jlrzhen/name-generator">name-generator</a></h3>
+                <span> - {icon(["JS", "React"])}</span><br/>
+                <p>name-generator is a web app I made that creates 
+                    usernames for users based on a specific theme. 
+                    The app is dependent on the 
+                    <span> <a href="https://www.datamuse.com/api/">Datamuse API</a> </span>
+                    and generates usernames by running queries with
+                    specific parameters.
+                </p>
+                <a href="https://jlrzhen.github.io/name-generator">View deployed site</a>
+                <br/><br/>
             </main>
             </div>    
         </div>   
