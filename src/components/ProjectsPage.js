@@ -65,7 +65,7 @@ function ProjectsPage() {
                     and generates usernames by running queries with
                     specific parameters.
                 </p>
-                <a href="https://jlrzhen.github.io/name-generator">View deployed site</a>
+                <a href="https://jlrzhen.github.io/name-generator">View deployed app</a>
                 <br/><br/>
             </main>
             </div>    
