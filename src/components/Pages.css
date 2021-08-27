@@ -26,6 +26,11 @@
     text-indent:0;
 }
 
+.projectImg {
+    border-style: solid;
+    border-color: #510061;
+}
+
 p, h1 {
     color: #fbe7ff; 
 }

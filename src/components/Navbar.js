@@ -5,11 +5,12 @@ import {
     Link,
     Redirect 
 } from 'react-router-dom';
+import './NavBar.css'
 import AboutPage from './AboutPage';
 import ProjectsPage from './ProjectsPage';
 import LearnMorePage from './LearnMorePage';
 import HomePage from './HomePage';
-import './NavBar.css'
+import WebRobotPage from './projects/WebRobotPage';
 
 function Navbar() {
     return (
@@ -35,8 +36,11 @@ function Navbar() {
                 <Route path="/learnmore">
                     <LearnMorePage/>
                 </Route>
-                <Route path="/projects">
+                <Route exact path="/projects">
                     <ProjectsPage/>
+                </Route>
+                <Route path="/projects/WebRobot">
+                    <WebRobotPage/>
                 </Route>
             </Switch>
         </Router>
