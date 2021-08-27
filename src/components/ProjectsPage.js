@@ -15,6 +15,7 @@ function ProjectsPage() {
                 - clean up project files
                 - add css animations
                 - add separate pages for projects
+                - add back button for project pages
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
