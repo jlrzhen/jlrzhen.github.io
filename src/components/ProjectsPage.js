@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import './Pages.css';
 import websiteIcon from '../images/websiteIcon192.png'
 import nameGenIcon from '../images/nameGenIcon192.png'
-import flaskIcon from '../images/flaskIcon.svg'
 import robotIcon from '../images/robotIcon192.png'
+import icon from '../functions/GenerateIcons'
 
 function ProjectsPage() {  
     return (
@@ -49,6 +50,7 @@ function ProjectsPage() {
                     Raspberry Pi Zero using Flask and a user interface
                     created with React.
                 </p>
+                <Link to="/projects/WebRobot">Read more...</Link><br/>
                 
                 <h2 style={{textDecoration: 'none'}}>Completed</h2> 
 
@@ -71,49 +73,6 @@ function ProjectsPage() {
             </div>    
         </div>   
     );
-}
-
-/* Takes an array of tools used in projects 
-    and returns JSX with a list of icons */
-function icon (nameList) {
-    let icons = [];
-    for (let i=0; i<nameList.length; i++) {
-        switch(nameList[i]) {
-            case "JS":
-                icons.push(<span><i class="fab fa-js"></i> JavaScript</span>);
-                addSeparator(i);
-                break;
-            case "React":
-                icons.push(<span><i class="fab fa-react"></i> React</span>);
-                if(i<nameList.length-1) {
-                    icons.push(<span>, </span>)
-                }
-                break;
-            case "Python":
-                icons.push(<span><i class="fab fa-python"></i> Python</span>);
-                addSeparator(i);
-                break;
-            case "Flask":
-                icons.push(<span>
-                    <img src={flaskIcon} alt="Flask Icon"
-                        style={{
-                            height: "1em",
-                        }}
-                    /> Flask</span>);
-                addSeparator(i);
-                break;
-            default: icons += null;
-        }
-        
-    }
-    
-    function addSeparator(i) {
-        if(i<nameList.length-1) {
-            icons.push(<span>, </span>)
-        }
-    }
-    
-    return icons    
 }
 
 export default ProjectsPage;
