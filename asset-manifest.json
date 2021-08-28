@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa2e03dd.chunk.css",
-    "main.js": "/static/js/main.d4892ca1.chunk.js",
-    "main.js.map": "/static/js/main.d4892ca1.chunk.js.map",
+    "main.css": "/static/css/main.a53a8249.chunk.css",
+    "main.js": "/static/js/main.bfda0772.chunk.js",
+    "main.js.map": "/static/js/main.bfda0772.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc0d84d4.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc0d84d4.js.map",
     "static/js/2.b3d4ecce.chunk.js": "/static/js/2.b3d4ecce.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.0593e774.chunk.js": "/static/js/3.0593e774.chunk.js",
     "static/js/3.0593e774.chunk.js.map": "/static/js/3.0593e774.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fa2e03dd.chunk.css.map": "/static/css/main.fa2e03dd.chunk.css.map",
+    "static/css/main.a53a8249.chunk.css.map": "/static/css/main.a53a8249.chunk.css.map",
     "static/js/2.b3d4ecce.chunk.js.LICENSE.txt": "/static/js/2.b3d4ecce.chunk.js.LICENSE.txt",
     "static/media/flaskIcon.e2e6d018.svg": "/static/media/flaskIcon.e2e6d018.svg",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.cc0d84d4.js",
     "static/js/2.b3d4ecce.chunk.js",
-    "static/css/main.fa2e03dd.chunk.css",
-    "static/js/main.d4892ca1.chunk.js"
+    "static/css/main.a53a8249.chunk.css",
+    "static/js/main.bfda0772.chunk.js"
   ]
 }
