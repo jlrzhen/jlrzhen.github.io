@@ -31,6 +31,10 @@
     border-color: #510061;
 }
 
+.projectList > li, .projectList > ul > li {
+    margin-bottom: 1em;
+}
+
 p, h1 {
     color: #fbe7ff; 
 }
