@@ -16,6 +16,7 @@ function ProjectsPage() {
                 - add css animations
                 - add separate pages for projects
                 - add back button for project pages
+                - add images for robot parts
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 

@@ -14,13 +14,13 @@ function WebRobotPage() {
                 </a><span> </span>               
                 <span> - {icon(["Python", "Flask", "JS", "React"])}</span><br/>
                 <div className="lineDiv"/>
-                <h3>Description</h3>
+                <h2>Description</h2>
                 <p>
                     A two-wheeled robot chassis controlled by a 
                     Raspberry Pi Zero using Flask and a user interface 
                     created with React.
                 </p>
-                <h3>Purpose</h3>
+                <h2>Purpose</h2>
                 <p>
                     My main goal for this project was to create a 
                     robot that could be controlled in real time 
@@ -34,7 +34,7 @@ function WebRobotPage() {
                     me to practice using various tools such as VSCode,
                     Git, and diagram creation software.     
                 </p>
-                <h3>List of Parts</h3>
+                <h2>List of Parts</h2>
                 <ul className="projectList">
                     <li>1x Raspberry Pi Zero</li>
                     <li>1x Wireless USB Adapter 
@@ -50,15 +50,39 @@ function WebRobotPage() {
                     <li>1x L298N DC Motor Driver</li>
                     <li>1x USB Power Bank</li>
                 </ul>
+                <h2>Raspberry Pi Zero</h2>
+                <p>
+                    The Raspberry Pi Zero is a small and inexpensive
+                    single board computer that can be used in many 
+                    projects. It features a set of pins that can be 
+                    used to output voltages or communicate with other 
+                    devices through various protocols. For my robot, 
+                    I have connected it to a power bank and a wireless 
+                    adapter to control it remotely.
+                </p>
+                <h2>L298N DC Motor Driver</h2>
+                <p>
+                    This board is commonly used in small projects and can 
+                    control up to two DC motors. There are four pins to control 
+                    each motor's direction and two additional pins to change their speed.
+                </p>
+                <h2>Robot Chassis Kit</h2>
+                <p>
+                    The robot chassis kit that I have chosen for this project 
+                    contains an acrylic frame, two geared motors, a battery box,
+                    and three wheels. Two of the wheels are attached to the motors
+                    while the third one is unpowered and is connected to a swivel 
+                    that allows the robot to turn left and right.
+                </p>
+                <h2>Wiring Diagram</h2>
                 <img 
                     src={wiringDiagram} 
                     className="projectImg" 
                     height="600em" width="600em" 
                     alt="WebRobot Wiring Diagram"
                 />
-                <br/>
-                <span className="caption">Wiring Diagram</span>
-                <br/>
+                <h2><a href="https://github.com/jlrzhen/webRobot-Server">webRobot-Server</a></h2>
+                <h2><a href="https://github.com/jlrzhen/webRobot-UI">webRobot-UI</a></h2>
                 <br/>
             </main>
             </div>
