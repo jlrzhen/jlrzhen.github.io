@@ -12,6 +12,7 @@ function ProjectsPage() {
             <main>
                 {/* 
                 TODO: 
+                - fix learn more page
                 - clean up project files
                 - add css animations
                 - add separate pages for projects
