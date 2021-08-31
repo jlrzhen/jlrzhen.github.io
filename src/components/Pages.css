@@ -26,6 +26,10 @@
     text-indent:0;
 }
 
+.iconLabel {
+    display: inline;
+}
+
 .projectImg {
     border-style: solid;
     border-color: #510061;
@@ -64,7 +68,8 @@ a {
     padding: 0;
 }
 
-.page > div > main > p {
+.page > div > main > p,
+.projectSteps > p {
     margin: 0 0 1 0;
     padding: 0;
     text-indent: 50px;

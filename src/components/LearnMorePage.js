@@ -15,14 +15,14 @@ function LearnMorePage() {
                     <img src={GitHubMark}  alt="GitHub Mark" style={{height:"1.5em",width:"1.5em"}}/>
                 </a>
                 <span> </span>
-                <h2><a href="https://github.com/jlrzhen/jlrzhen.github.io">GitHub repository</a></h2>
-                <br/>
+                <h2 className="iconLabel"><a href="https://github.com/jlrzhen/jlrzhen.github.io">GitHub repository</a></h2>
+                <br/><br/>
 
                 <a href="https://github.com/jlrzhen">
                     <img src={GitHubMark} alt="GitHub Mark" style={{height:"1.5em",width:"1.5em"}}/>
                 </a>
                 <span> </span>
-                <h2><a href="https://github.com/jlrzhen">GitHub profile</a></h2><br/>
+                <h2 className="iconLabel"><a href="https://github.com/jlrzhen">GitHub profile</a></h2><br/>
                 <h1>About Me</h1>
                 <p>I am currently a student who is planning to study Computer
                     Engineering at the University of Waterloo. My main interests
