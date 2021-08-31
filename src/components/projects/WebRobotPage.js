@@ -1,7 +1,8 @@
 import '../Pages.css';
 import icon from '../../functions/GenerateIcons'
 import robotIcon from '../../images/robotIcon192.png'
-import wiringDiagram from '../../images/projectImages/wiringDiagram.png'
+import wiringDiagram from '../../images/projectImages/WebRobot/wiringDiagram.png'
+import L298N from '../../images/projectImages/WebRobot/L298N.jpg'
 
 function WebRobotPage() {
     return(
@@ -66,6 +67,12 @@ function WebRobotPage() {
                     control up to two DC motors. There are four pins to control 
                     each motor's direction and two additional pins to change their speed.
                 </p>
+                <img 
+                    src={L298N} 
+                    className="projectImg" 
+                    height="95%" width="95%" 
+                    alt="L298N Motor Driver Board"
+                />
                 <h3>Robot Chassis Kit</h3>
                 <p>
                     The robot chassis kit that I have chosen for this project 
@@ -91,15 +98,16 @@ function WebRobotPage() {
                         driver board with six jumper wires. I also connected a power bank and a wireless 
                         adapter to allow the robot to move freely without connecting it to my computer with 
                         a physical connection. Finally, I connected the two motors and battery box to the 
-                        motor driver board using the onboard screw terminals. For more information, see 
-                        the wiring diagram in figure 1 below.
+                        motor driver board using the onboard screw terminals. 
+                        <br/><br/>
+                        For more information, see the wiring diagram in the image below.
                     </p>
                 </ol>
-                <h2> Figure 1. Wiring Diagram</h2>
+                <h2>Wiring Diagram</h2>
                 <img 
                     src={wiringDiagram} 
                     className="projectImg" 
-                    height="600em" width="600em" 
+                    height="95%" width="95%" 
                     alt="WebRobot Wiring Diagram"
                 />
                 <h2>Programming the Robot</h2>
@@ -110,6 +118,7 @@ function WebRobotPage() {
                     interface was created in React. The second application is named "webRobot-Server". It is a Flask 
                     application that recieves commands from the user interface and moves the robot. The two motors on the
                     robot move when the pins on the motor driver board are set to a combination of high and low voltages.
+                    <br/><br/>
                     Click on the links below to view the repositories of each application.   
                 </p>
                 <h2><a href="https://github.com/jlrzhen/webRobot-Server">webRobot-Server</a></h2>
