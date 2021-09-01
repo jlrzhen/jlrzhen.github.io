@@ -3,6 +3,11 @@ import icon from '../../functions/GenerateIcons'
 import robotIcon from '../../images/robotIcon192.png'
 import wiringDiagram from '../../images/projectImages/WebRobot/wiringDiagram.png'
 import L298N from '../../images/projectImages/WebRobot/L298N.jpg'
+import robotBatteryBox from '../../images/projectImages/WebRobot/robotBatteryBox.jpg'
+import robotMotorMount from '../../images/projectImages/WebRobot/robotMotorMount.jpg'
+import robotWireless from '../../images/projectImages/WebRobot/robotWireless.jpg'
+import robotWiring from '../../images/projectImages/WebRobot/robotWiring.jpg'
+import robotDemo from '../../images/projectImages/WebRobot/robotDemo.gif'
 
 function WebRobotPage() {
     return(
@@ -21,6 +26,12 @@ function WebRobotPage() {
                     Raspberry Pi Zero using Flask and a user interface 
                     created with React.
                 </p>
+                <img 
+                    src={robotDemo} 
+                    className="projectImg" 
+                    height="95%" width="95%" 
+                    alt="Demonstration of Driving Robot"
+                />
                 <h2>Purpose</h2>
                 <p>
                     My main goal for this project was to create a 
@@ -35,6 +46,22 @@ function WebRobotPage() {
                     me to practice using various tools such as VSCode,
                     Git, and diagram creation software.     
                 </p>
+                <h2>Programming the Robot</h2>
+                <p>
+                    In order to control my robot through a web browser, I had to create two separate applications.
+                    One of them I called "webRobot-UI", which is a user interface that displays four buttons. These 
+                    buttons are used to make the robot move forwards, move backwards, turn left, and turn right. This user 
+                    interface was created in React. 
+                </p>
+                <p>
+                    The second application is named "webRobot-Server". It is a Flask 
+                    application that recieves commands from the user interface and moves the robot. The two motors on the
+                    robot move when the pins on the motor driver board are set to a combination of high and low voltages.
+                    <br/><br/>
+                    Click on the links below to view the repositories of each application.  
+                </p>
+                <h2><a href="https://github.com/jlrzhen/webRobot-Server">webRobot-Server</a></h2>
+                <h2><a href="https://github.com/jlrzhen/webRobot-UI">webRobot-UI</a></h2>
                 <h2>List of Parts</h2>
                 <ul className="projectList">
                     <li>1x Raspberry Pi Zero</li>
@@ -61,6 +88,12 @@ function WebRobotPage() {
                     I have connected it to a power bank and a wireless 
                     adapter to control it remotely.
                 </p>
+                <img 
+                    src={robotWireless} 
+                    className="projectImg" 
+                    height="95%" width="95%" 
+                    alt="Wireless Adapter and Power Bank"
+                />
                 <h3>L298N DC Motor Driver</h3>
                 <p>
                     This board is commonly used in small projects and can 
@@ -92,6 +125,18 @@ function WebRobotPage() {
                         broke in half. I was able to create a replacement part using popsicle sticks 
                         and hot glue.
                     </p>
+                    <img 
+                        src={robotBatteryBox} 
+                        className="projectImg" 
+                        height="95%" width="95%" 
+                        alt="Battery Box with Four AA BAtteries"
+                    /><br/><br/>
+                    <img 
+                        src={robotMotorMount} 
+                        className="projectImg" 
+                        height="95%" width="95%" 
+                        alt="Attaching Motors with Popsicle Sticks"
+                    />
                     <h3><li>Wiring</li></h3>
                     <p>
                         After assembling the robot chassis, I connected the Raspberry Pi to the motor 
@@ -99,9 +144,14 @@ function WebRobotPage() {
                         adapter to allow the robot to move freely without connecting it to my computer with 
                         a physical connection. Finally, I connected the two motors and battery box to the 
                         motor driver board using the onboard screw terminals. 
-                        <br/><br/>
-                        For more information, see the wiring diagram in the image below.
                     </p>
+                    <img 
+                        src={robotWiring} 
+                        className="projectImg" 
+                        height="95%" width="95%" 
+                        alt="L298N connected to Raspberry Pi Zero"
+                    />
+                    <p>For more information, see the wiring diagram in the image below.</p>
                 </ol>
                 <h2>Wiring Diagram</h2>
                 <img 
@@ -110,20 +160,7 @@ function WebRobotPage() {
                     height="95%" width="95%" 
                     alt="WebRobot Wiring Diagram"
                 />
-                <h2>Programming the Robot</h2>
-                <p>
-                    In order to control my robot through a web browser, I had to create two separate applications.
-                    One of them I called "webRobot-UI", which is a user interface that displays four buttons. These 
-                    buttons are used to make the robot move forwards, move backwards, turn left, and turn right. This user 
-                    interface was created in React. The second application is named "webRobot-Server". It is a Flask 
-                    application that recieves commands from the user interface and moves the robot. The two motors on the
-                    robot move when the pins on the motor driver board are set to a combination of high and low voltages.
-                    <br/><br/>
-                    Click on the links below to view the repositories of each application.   
-                </p>
-                <h2><a href="https://github.com/jlrzhen/webRobot-Server">webRobot-Server</a></h2>
-                <h2><a href="https://github.com/jlrzhen/webRobot-UI">webRobot-UI</a></h2>
-                <br/>
+                <br/><br/>
             </main>
             </div>
         </div>
