@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.24a7f1cb.chunk.css",
-    "main.js": "/static/js/main.55180ad0.chunk.js",
-    "main.js.map": "/static/js/main.55180ad0.chunk.js.map",
+    "main.js": "/static/js/main.d3845d21.chunk.js",
+    "main.js.map": "/static/js/main.d3845d21.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cc0d84d4.js",
     "runtime-main.js.map": "/static/js/runtime-main.cc0d84d4.js.map",
     "static/js/2.b3d4ecce.chunk.js": "/static/js/2.b3d4ecce.chunk.js",
@@ -15,13 +15,18 @@
     "static/media/L298N.e151a7b7.jpg": "/static/media/L298N.e151a7b7.jpg",
     "static/media/flaskIcon.e2e6d018.svg": "/static/media/flaskIcon.e2e6d018.svg",
     "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/robotBatteryBox.06cb4bb1.jpg": "/static/media/robotBatteryBox.06cb4bb1.jpg",
+    "static/media/robotDemo.4132001d.gif": "/static/media/robotDemo.4132001d.gif",
     "static/media/robotIcon192.a6857244.png": "/static/media/robotIcon192.a6857244.png",
+    "static/media/robotMotorMount.fda2a866.jpg": "/static/media/robotMotorMount.fda2a866.jpg",
+    "static/media/robotWireless.cc46e217.jpg": "/static/media/robotWireless.cc46e217.jpg",
+    "static/media/robotWiring.6cfd9c43.jpg": "/static/media/robotWiring.6cfd9c43.jpg",
     "static/media/wiringDiagram.37950f5a.png": "/static/media/wiringDiagram.37950f5a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cc0d84d4.js",
     "static/js/2.b3d4ecce.chunk.js",
     "static/css/main.24a7f1cb.chunk.css",
-    "static/js/main.55180ad0.chunk.js"
+    "static/js/main.d3845d21.chunk.js"
   ]
 }
