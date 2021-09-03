@@ -95,6 +95,8 @@ function WebRobotPage() {
                     height="95%" width="95%" 
                     alt="Wireless Adapter and Power Bank"
                 />
+                <span className="caption">Wireless Adapter and Power Bank</span>
+                <br/>
                 <h3>L298N DC Motor Driver</h3>
                 <p>
                     This board is commonly used in small projects and can 
@@ -107,6 +109,8 @@ function WebRobotPage() {
                     height="95%" width="95%" 
                     alt="L298N Motor Driver Board"
                 />
+                <span className="caption">L298N Motor Driver Board</span>
+                <br/>
                 <h3>Robot Chassis Kit</h3>
                 <p>
                     The robot chassis kit that I have chosen for this project 
@@ -130,14 +134,18 @@ function WebRobotPage() {
                         src={robotBatteryBox} 
                         className="projectImg" 
                         height="95%" width="95%" 
-                        alt="Battery Box with Four AA BAtteries"
-                    /><br/><br/>
+                        alt="Battery Box with Four AA Batteries"
+                    />
+                    <span className="caption">Battery Box with Four AA Batteries</span>
+                    <br/><br/>
                     <img 
                         src={robotMotorMount} 
                         className="projectImg" 
                         height="95%" width="95%" 
                         alt="Attaching Motors with Popsicle Sticks"
                     />
+                    <span className="caption">Attaching Motors with Popsicle Sticks</span>
+                    <br/>
                     <h3><li>Wiring</li></h3>
                     <p>
                         After assembling the robot chassis, I connected the Raspberry Pi to the motor 
@@ -152,6 +160,7 @@ function WebRobotPage() {
                         height="95%" width="95%" 
                         alt="L298N connected to Raspberry Pi Zero"
                     />
+                    <span className="caption">L298N connected to Raspberry Pi Zero</span>
                     <p>For more information, see the wiring diagram in the image below.</p>
                 </ol>
                 <h2>Wiring Diagram</h2>
@@ -161,6 +170,7 @@ function WebRobotPage() {
                     height="95%" width="95%" 
                     alt="WebRobot Wiring Diagram"
                 />
+                <span className="caption">WebRobot Wiring Diagram</span>
                 <br/><br/>
             </main>
             </div>
