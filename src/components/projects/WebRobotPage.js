@@ -32,6 +32,7 @@ function WebRobotPage() {
                     height="95%" width="95%" 
                     alt="Demonstration of Driving Robot"
                 />
+                <span className="caption">Demonstration of Driving Robot</span>
                 <h2>Purpose</h2>
                 <p>
                     My main goal for this project was to create a 
