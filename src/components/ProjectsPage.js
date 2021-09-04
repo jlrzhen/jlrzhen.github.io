@@ -25,7 +25,7 @@ function ProjectsPage() {
 
                 <h2 style={{textDecoration: 'none'}}>Ongoing</h2> 
 
-                <br/><div className="lineDiv"/>
+                <div className="lineDiv"/>
                 <a href="https://jlrzhen.github.io">
                     <img src={websiteIcon} height="20em" width="20em" alt="Website Icon"/>
                 </a><span> </span>
