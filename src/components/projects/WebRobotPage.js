@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../Pages.css';
 import icon from '../../functions/GenerateIcons'
 import robotIcon from '../../images/robotIcon192.png'
@@ -14,6 +15,8 @@ function WebRobotPage() {
         <div className="page">
             <div className="pageContent">
             <main>
+                <br/><br/>
+                <Link to="/projects" className="backButton">&lt; Projects</Link>
                 <h1>Webpage Controlled Robot</h1>                
                 <a href="https://github.com/jlrzhen/webRobot-UI/">
                     <img src={robotIcon} height="20em" width="20em" alt="webRobot-UI Icon"/>

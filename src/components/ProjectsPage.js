@@ -14,7 +14,6 @@ function ProjectsPage() {
                 TODO: 
                 - clean up project files
                 - add css animations
-                - add back button for project pages
                 - add images for robot parts
                 */}
                 <h1>Projects</h1> 
