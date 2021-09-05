@@ -9,6 +9,7 @@ import robotMotorMount from '../../images/projectImages/WebRobot/robotMotorMount
 import robotWireless from '../../images/projectImages/WebRobot/robotWireless.jpg'
 import robotWiring from '../../images/projectImages/WebRobot/robotWiring.jpg'
 import robotDemo from '../../images/projectImages/WebRobot/robotDemo.gif'
+import robotServerDemo from '../../images/projectImages/WebRobot/robotServerDemo.gif'
 
 function WebRobotPage() {
     return(
@@ -33,9 +34,9 @@ function WebRobotPage() {
                     src={robotDemo} 
                     className="projectImg" 
                     height="95%" width="95%" 
-                    alt="Demonstration of Driving Robot"
+                    alt="Demonstration of User Interface"
                 />
-                <span className="caption">Demonstration of Driving Robot</span>
+                <span className="caption">Demonstration of User Interface</span>
                 <h2>Purpose</h2>
                 <p>
                     My main goal for this project was to create a 
@@ -61,9 +62,16 @@ function WebRobotPage() {
                     The second application is named "webRobot-Server". It is a Flask 
                     application that recieves commands from the user interface and moves the robot. The two motors on the
                     robot move when the pins on the motor driver board are set to a combination of high and low voltages.
-                    <br/><br/>
-                    Click on the links below to view the repositories of each application.  
                 </p>
+                <img 
+                    src={robotServerDemo} 
+                    className="projectImg" 
+                    height="95%" width="95%" 
+                    alt="Demonstration of Robot Receiving Movement Commands"
+                />
+                <span className="caption">Demonstration of Robot Receiving Movement Commands</span>  
+                <br/><br/>
+                <p>Click on the links below to view the repositories of each application.</p>
                 <h2><a href="https://github.com/jlrzhen/webRobot-Server">webRobot-Server</a></h2>
                 <h2><a href="https://github.com/jlrzhen/webRobot-UI">webRobot-UI</a></h2>
                 <h2>List of Parts</h2>
