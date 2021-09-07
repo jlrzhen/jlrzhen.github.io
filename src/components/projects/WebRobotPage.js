@@ -182,7 +182,15 @@ function WebRobotPage() {
                     alt="WebRobot Wiring Diagram"
                 />
                 <span className="caption">WebRobot Wiring Diagram</span>
-                <br/><br/>
+                <h2>Improvements to Make and Features to Add</h2>
+                <ul className="projectList">
+                    <li>Acceleration to ramp up and ramp down speed 
+                        when moving robot (replaces constant speed)
+                    </li>
+                    <li>Arm and disarm switch</li>
+                    <li>Login interface to authenticate users</li>
+                    <li>script to host server on any robot</li>
+                </ul>
             </main>
             </div>
         </div>
