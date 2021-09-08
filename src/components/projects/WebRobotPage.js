@@ -188,6 +188,7 @@ function WebRobotPage() {
                         when moving robot (replaces constant speed)
                     </li>
                     <li>Arm and disarm switch</li>
+                    <li>ultrasonic sensor for auto collision avoidance</li>
                     <li>Login interface to authenticate users</li>
                     <li>Script to host server on any robot</li>
                     <li>Camera attachment</li>
