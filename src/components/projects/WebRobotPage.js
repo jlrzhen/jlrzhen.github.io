@@ -189,7 +189,8 @@ function WebRobotPage() {
                     </li>
                     <li>Arm and disarm switch</li>
                     <li>Login interface to authenticate users</li>
-                    <li>script to host server on any robot</li>
+                    <li>Script to host server on any robot</li>
+                    <li>Camera attachment</li>
                 </ul>
             </main>
             </div>
