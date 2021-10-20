@@ -17,6 +17,7 @@ class HomePage extends React.Component {
         return (
             <div className="App">
                 <header className="App-header">
+                <h1>Welcome to Jeffrey's Personal Website!</h1>
                 <div className="homeDate">
                     <p>Today's date: {this.state.date.toDateString()}</p>
                     <p>It is now {this.state.date.toTimeString()}</p>

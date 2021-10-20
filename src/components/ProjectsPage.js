@@ -14,6 +14,7 @@ function ProjectsPage() {
                 TODO: 
                 - clean up project files
                 - add css animations
+                - add icon for provincial catalog
                 */}
                 <h1>Projects</h1> 
                 <p>This page shows a collection of my 
@@ -67,6 +68,14 @@ function ProjectsPage() {
                     specific parameters.
                 </p>
                 <a href="https://jlrzhen.github.io/name-generator">View deployed app</a>
+                <br/><br/>
+
+                <div className="lineDiv"/>
+                <h3><a href="https://github.com/jlrzhen/canada-provincial-catalog">canada-provincial-catalog</a></h3>
+                <span> - Java</span><br/>
+                <p>
+                    A graphical program used to learn about facts related to Canadian provinces.
+                </p>
                 <br/><br/>
             </main>
             </div>    
