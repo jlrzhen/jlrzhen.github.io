@@ -1,0 +1,37 @@
+ul.navbar {
+    background-color: #cf88dd; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+@keyframes colorChange {
+    from {color: rgb(240, 240, 240);}
+    to {color: #510061;}
+}
+
+ul.navbar > li {
+    text-align: center;
+    list-style-type: none;
+    border-style: solid;
+    border-left: 1em;
+    border-color: #510061;
+    display: flexbox;
+    width: max-content;
+    margin: auto;
+    width: 100%;
+}
+
+.nav {
+    color: rgb(240, 240, 240);
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.nav:hover {
+    color: #510061;
+    animation-name: colorChange;
+    animation-duration: 0.46s;
+}
+
+

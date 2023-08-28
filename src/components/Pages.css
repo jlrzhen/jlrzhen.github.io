@@ -1,0 +1,102 @@
+.page > .pageContent {
+    margin-top: 1%;
+    background-color: #9164c5;
+    border-style: solid;
+    border-color: #510061;
+    /*min-height: 100vh;*/
+}
+
+.page {
+    background-color: #8866af;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.lineDiv {
+    height: 0.01em; 
+    background-color: Indigo; 
+    margin: 20px 0px
+}
+
+.backButton {
+    text-decoration: none;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 0.1em;
+    border-radius: 5%;
+    padding: 0.2em;
+    color:#ecdefc;
+}
+
+.caption {
+    font-size: small;
+    color: #ecdefc;
+    text-indent:0;
+}
+
+.iconLabel {
+    display: inline;
+}
+
+.projectImg {
+    border-style: solid;
+    border-color: #510061;
+}
+
+.projectList > li, .projectList > ul > li {
+    margin-bottom: 1em;
+}
+
+p, h1 {
+    color: #fbe7ff; 
+}
+
+h3 {
+    display: inline-block;
+}
+
+a {
+    color: #fbe7ff; 
+    text-decoration: underline; 
+}
+
+.page > div > main
+{
+    color: #fbe7ff;
+    font-family: Helvetica;
+    margin: 0 10%;
+    padding: 0;
+    max-width: 50em;
+
+}
+
+.page > div > main > h1 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding: 0;
+}
+
+.page > div > main > p,
+.projectSteps > p {
+    margin: 0 0 1 0;
+    padding: 0;
+    text-indent: 50px;
+}
+
+ul.aboutNav {
+    max-width:fit-content;
+}
+
+.aboutNavLink {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+p.aboutNav:hover,
+h2.aboutNav:hover,
+a:hover {
+    color: #510061;
+}
+
