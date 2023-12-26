@@ -1,5 +1,9 @@
+h1 {
+  margin: 1%;
+}
+
 div.homeDate {
-  margin: 5% 0 5% 0;
+  margin: 1% 0 1% 0;
   padding: 2% 1%;
   border-style: ridge;
   border-width: 0.5em;
@@ -11,8 +15,13 @@ div.homeDate {
 }
 
 .container {
-  background-color: #000000;
+  background-color: #42034e;
   border-radius: 5%;
+  margin: 2%;
+}
+
+.container > p {
+  margin: 2%;
 }
 
 .App {
@@ -21,6 +30,14 @@ div.homeDate {
   
   .App-logo {
     height: 40vmin;
+    pointer-events: none;
+  }
+
+  .App-logo-vite {
+    height: 40vmin;
+    padding: 2vmin;
+    padding-left: 8vmin;
+    padding-right: 8vmin;
     pointer-events: none;
   }
   

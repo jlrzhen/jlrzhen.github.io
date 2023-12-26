@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import logo from '../logo.svg';
+import logo_vite from '../images/Vitejs-logo.svg.png';
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -23,19 +24,34 @@ class HomePage extends React.Component {
                     <p>It is now {this.state.date.toTimeString()}</p>
                 </div>
                 <div className="container">
-                    <img src={logo} className="App-logo" alt="logo" />
+                    <img src={logo_vite} className="App-logo-vite" alt="logo_vite" />
+                    <p>Made with<br></br>
+                        <a
+                            className="App-link"
+                            href="https://vitejs.dev/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            https://vitejs.dev/
+                        </a>
+                    </p>
                 </div>
-                <p>
-                    Made with <code>Create React App</code>
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
+                
+                <div className="container">
+                <img src={logo} className="App-logo" alt="logo" />
+                    <p>
+                        Previously made with <br></br> 
+                        <code>Create React App</code>
+                    </p>
+                    <a
+                        className="App-link"
+                        href="https://reactjs.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Learn React
+                    </a>
+                </div>
                 </header>
             </div>
         );
@@ -43,7 +59,7 @@ class HomePage extends React.Component {
     componentDidMount() {
         this.startHomePageClock();
     }
-    componentDidUnmount() {
+    componentWillUnmount() {
         clearInterval(this.homePageClock);
     }
 }
