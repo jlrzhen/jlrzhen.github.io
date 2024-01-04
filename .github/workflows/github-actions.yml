@@ -17,14 +17,13 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       - name: Install modules
         run: |
           npm install
       - name: Run ESLint
         run: npx eslint . --ext .js,.jsx,.ts,.tsx
-        continue-on-error: true
-      - name: Run Snyk to check for vulnerabilities
-        uses: snyk/actions/node@master
-        env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
