@@ -1,8 +1,7 @@
-name: GitHub Actions
+name: CI
 run-name: Workflow triggered by ${{ github.actor }} 🚀
 on:
   workflow_dispatch:
-  push:
 jobs:
   Security:
     runs-on: ubuntu-latest
