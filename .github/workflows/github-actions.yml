@@ -2,8 +2,9 @@ name: GitHub Actions
 run-name: Workflow triggered by ${{ github.actor }} 🚀
 on:
   workflow_dispatch:
+  push:
 jobs:
-  Explore-GitHub-Actions:
+  CI:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
@@ -19,5 +20,5 @@ jobs:
       - name: Install modules
         run: yarn
       - name: Run ESLint
-        run: eslint . --ext .js,.jsx,.ts,.tsx
+        run: yarn run eslint . --ext .js,.jsx,.ts,.tsx
       - run: echo "🍏 This job's status is ${{ job.status }}."
